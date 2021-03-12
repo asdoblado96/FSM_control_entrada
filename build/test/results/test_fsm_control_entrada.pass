@@ -1,0 +1,74 @@
+---
+:source:
+  :path: test
+  :file: test_fsm_control_entrada.c
+:successes:
+- :test: test_fsm_control_entrada_fsmInitFillsStructWithSomething
+  :line: 27
+  :message: ''
+  :unity_test_time: 0
+- :test: test_fsm_control_entrada_fsmFireCallsNFCWhenDown
+  :line: 38
+  :message: ''
+  :unity_test_time: 0
+- :test: test_fsm_control_entrada_fsmFireFollowsTransitionWhenDownAndNFCIsTrue
+  :line: 50
+  :message: ''
+  :unity_test_time: 0
+- :test: test_fsm_control_entrada_fsmFireDontFollowTransitionTransitionWhenDownAndNFCIsFalse
+  :line: 63
+  :message: ''
+  :unity_test_time: 0
+- :test: test_fsm_control_entrada_fsmFireFollowTransitionWhenSubiendoAndsbartopisTrue
+  :line: 76
+  :message: ''
+  :unity_test_time: 0
+- :test: test_fsm_control_entrada_fsmFireDontFollowTransitionWhenSubiendoAndsbartopIsFalse
+  :line: 92
+  :message: ''
+  :unity_test_time: 0
+- :test: test_fsm_control_entrada_fsmFireFollowTransitionWhenUPAndDeadlineisTrue
+  :line: 107
+  :message: ''
+  :unity_test_time: 0
+- :test: test_fsm_control_entrada_fsmFireDontFollowTransitionWhenUPAndDeadlineisFalse
+  :line: 123
+  :message: ''
+  :unity_test_time: 0
+- :test: test_fsm_control_entrada_fsmFireFollowTransitionWhenUPAndSProxisTrue
+  :line: 140
+  :message: ''
+  :unity_test_time: 0
+- :test: test_fsm_control_entrada_fsmFireDontFollowTransitionWhenUPAndSProxisFalse
+  :line: 157
+  :message: ''
+  :unity_test_time: 0
+- :test: test_fsm_control_entrada_fsmFireFollowTransitionWhenBajandoAndbarbottomisTrue
+  :line: 173
+  :message: ''
+  :unity_test_time: 0
+- :test: test_fsm_control_entrada_fsmFireDontFollowTransitionWhenBajandoAndsbarbottomisFalse
+  :line: 188
+  :message: ''
+  :unity_test_time: 0
+- :test: test_fsm_control_entrada_fsmFireFollowTransitionWhenWaitingAndDeadlineisTrue
+  :line: 203
+  :message: ''
+  :unity_test_time: 0
+- :test: test_fsm_control_entrada_fsmFireDontFollowTransitionWhenWaitingAndDeadlineisFalse
+  :line: 219
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores:
+- :test: test_fsm_Inicial
+  :line: 25
+  :message: ''
+  :unity_test_time: 0
+:counts:
+  :total: 15
+  :passed: 14
+  :failed: 0
+  :ignored: 1
+:stdout: []
+:time: 0.012931299999763723
